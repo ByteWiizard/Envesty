@@ -227,13 +227,14 @@ export default function Home() {
         />
         <Spacing lg="50" md="30" />
         <Div className="row">
-          {/* Families */}
+          
+          {/* Young Entrepreneurs */}
           <Div className="col-lg-4">
             <Div className={`cs-shadow_box_1 ${styles['cs-target_card']}`}>
-              <img src="/images/demo/“My Mom Has ADHD__ Stories of Growing Up with an ADD Mother.jpeg" alt="Families" className="cs-icon" />
-              <h4 className="cs-font_30">Families</h4>
+              <img src="/images/demo/Sprint%20Start%20Up%20Illustrations%20-%20Illustrations.jpeg" alt="Young Entrepreneurs" className="cs-icon" />
+              <h4 className="cs-font_30">Young Entrepreneurs</h4>
               <p className="cs-font_16">
-                Focused on financial literacy, long-term planning, and guidance for children’s skill acquisition.
+                Targeting Gen-Z innovators with mentorship and business advisory to help them build successful ventures.
               </p>
             </Div>
           </Div>
@@ -249,13 +250,13 @@ export default function Home() {
             </Div>
           </Div>
 
-          {/* Young Entrepreneurs */}
+          {/* Families */}
           <Div className="col-lg-4">
             <Div className={`cs-shadow_box_1 ${styles['cs-target_card']}`}>
-              <img src="/images/demo/Sprint%20Start%20Up%20Illustrations%20-%20Illustrations.jpeg" alt="Young Entrepreneurs" className="cs-icon" />
-              <h4 className="cs-font_30">Young Entrepreneurs</h4>
+              <img src="/images/demo/“My Mom Has ADHD__ Stories of Growing Up with an ADD Mother.jpeg" alt="Families" className="cs-icon" />
+              <h4 className="cs-font_30">Families</h4>
               <p className="cs-font_16">
-                Targeting Gen-Z innovators with mentorship and business advisory to help them build successful ventures.
+                Focused on financial literacy, long-term planning, and guidance for children’s skill acquisition.
               </p>
             </Div>
           </Div>
@@ -287,10 +288,10 @@ export default function Home() {
               <h3>Business Service</h3>
               <p>Scale your business with experts and comprehensive support</p>
               <ul className={styles['aligned-list']}>
-                <li>Customised solutions tailored to your business needs</li>
-                <li>Expert guidance and support throughout the journey</li>
-                <li>Support for business development, marketing, and finance</li>
-                <li>Access to a network of industry experts and resources</li>
+                <li>Virtual Co-Founder</li>
+                <li>Digital Transformation</li>
+                <li>Legal Consultancy</li>
+                <li>Business Advisory</li>
               </ul>
             </motion.div>
 
@@ -307,10 +308,10 @@ export default function Home() {
               <h3>Personal Finance</h3>
               <p>Build and manage your wealth with personalised startegies</p>
               <ul className={styles['aligned-list']}>
-                <li>Long and Short term Financial Planning</li>
-                <li>Complete Wealth Management</li>
-                <li>Guidance and Investment Advisory</li>
-                <li>Masterclasses to uplift your knowledge</li>
+                <li>Investment Planning</li>
+                <li>Debt Management</li>
+                <li>Tax Planning</li>
+                <li>Masterclasses & Workshops</li>
               </ul>
             </motion.div>
           </Div>
@@ -348,7 +349,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <div className={styles.cardIcon}>
-              <img src="/images/icons/digital-transformation.svg" alt="Digital Transformation" />
+              <img src="/images/icons/digital.svg" alt="Digital Transformation" />
             </div>
             <h3>Digital Transformation</h3>
           </motion.div>
@@ -390,7 +391,7 @@ export default function Home() {
           variant="cs-style1 text-center"
         />
         <Spacing lg="50" md="30" />
-        <Div className={styles.financeGrid}>
+        <Div className={styles.servicesGrid}>
           <motion.div
             className={styles.serviceCard}
             initial={{ opacity: 0, y: 20 }}
@@ -401,7 +402,7 @@ export default function Home() {
             <div className={styles.cardIcon}>
               <img src="/images/icons/financial.svg" alt="Wealth Management" />
             </div>
-            <h3>Wealth Management</h3>
+            <h3>Investment Planning</h3>
           </motion.div>
 
           <motion.div
@@ -412,9 +413,9 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <div className={styles.cardIcon}>
-              <img src="/images/icons/consulting.svg" alt="Financial Planning" />
+              <img src="/images/icons/debt-management.svg" alt="Debt Management" />
             </div>
-            <h3>Financial Planning</h3>
+            <h3>Debt Management</h3>
           </motion.div>
 
           <motion.div
@@ -425,9 +426,22 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className={styles.cardIcon}>
-              <img src="/images/icons/investment-advisory.svg" alt="Investment Advisory" />
+              <img src="/images/icons/digital-transformation.svg" alt="Tax Planning" />
             </div>
-            <h3>Investment Advisory</h3>
+            <h3>Tax Planning</h3>
+          </motion.div>
+
+          <motion.div
+            className={styles.serviceCard}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <div className={styles.cardIcon}>
+              <img src="/images/icons/consulting.svg" alt="Investment Advisory" />
+            </div>
+            <h3>Masterclasses & Workshops</h3>
           </motion.div>
         </Div>
       </Div>

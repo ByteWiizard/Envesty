@@ -5,7 +5,7 @@ import PageHeading from '../PageHeading';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
-import { ChevronsRight } from 'lucide-react';
+// import { ChevronsRight } from 'lucide-react';
 import styles from './AboutPage.module.css';
 
 export default function AboutPage() {
@@ -58,10 +58,7 @@ export default function AboutPage() {
                 >
                   <div className={styles.aboutContent}>
                     <p>
-                      At Envesty Solutions, we empower families, startups, and small businesses by bridging gaps in financial literacy, skill development, and business compliance. With a mission to create sustainable futures, we provide tailored, data-driven solutions that foster long-term financial stability.
-                    </p>
-                    <p>
-                      From guiding families in education planning to helping MSMEs optimize finances, our experienced team delivers clear strategies and personalized support for the best outcomes.
+                    At Envesty, we are committed to being your Growth & Wealth Partner, empowering both businesses and individuals to achieve financial success and sustainable growth. Our unique approach integrates Business Services—including Virtual Co-Founder mentorship, Digital Transformation, Legal Consultancy, and Business Advisory—with Personal Finance solutions such as Financial Planning and Masterclasses.
                     </p>
                   </div>
                   <div className={styles.separator}></div>
@@ -118,12 +115,12 @@ export default function AboutPage() {
                 >
                   <div className={styles.aboutContent}>
                     <p>
-                      We bring years of experience in financial advisory, business consulting, and legal services. Our holistic approach ensures that your business not only complies with regulations but thrives in today's competitive market.
+                    We understand that financial stability and business success go hand in hand. That’s why we provide a holistic ecosystem where MSMEs, startups, and individuals can access expert-backed mentorship, compliance support, and wealth-building strategies—all under one trusted platform.
                     </p>
                     <p>
-                      Our team of experts is dedicated to providing personalized solutions that align with your unique goals and challenges. We believe in building long-term relationships based on trust, transparency, and results.
+                    With a strong focus on affordability, accessibility, and impact, we offer Big 4-level expertise at MSME-friendly prices, ensuring that businesses grow efficiently and individuals secure their financial futures. Whether you’re an entrepreneur looking to scale or an individual planning your investments, Envesty is your one-stop solution for success.
                     </p>
-                    <p className="cs-m0">
+                    {/* <p className="cs-m0">
                       <ChevronsRight /> Affordable Solutions: We are committed to making our services cost-effective without compromising quality.
                     </p>
 
@@ -138,7 +135,7 @@ export default function AboutPage() {
 
                     <p className="cs-m0">
                       <ChevronsRight /> Technology-Driven: Leveraging the latest tools to deliver efficient and impactful solutions.
-                    </p>
+                    </p> */}
                   </div>
                   <div className={styles.separator}></div>
                 </SectionHeading>

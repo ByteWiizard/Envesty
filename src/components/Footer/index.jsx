@@ -48,7 +48,16 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <TextWidget
                   logoSrc='/images/latest/image.png'
                   logoAlt='Envesty Logo'
-                  //text="Empowering businesses through innovative digital solutions and strategic guidance for sustainable growth."
+                  additionalLogos={[
+                    // {
+                    //   src: '/images/latest/pngwing.com-removebg-preview.png',
+                    //   alt: 'Additional Logo 1',
+                    // },
+                    // {
+                    //   src: '/images/latest/image (1).png',
+                    //   alt: 'Additional Logo 2'
+                    // }
+                  ]}
                 />
               </Div>
             </Div>
@@ -57,8 +66,8 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <ContactInfoWidget 
                   title="Get in Touch"
                   email="support@envesty.in"
-                  phone="+91 7086975636"
-                  address="Bangalore, India"
+                  phone="+91 9876819933"
+                  address="Noida, Uttar Pradesh, India"
                 />
               </Div>
             </Div>

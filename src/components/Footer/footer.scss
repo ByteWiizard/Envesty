@@ -135,6 +135,13 @@
     height: auto;
     display: block;
     margin-bottom: 20px;
+    
+    &:not(:first-child) {
+      max-width: 100px;
+      margin-left: 15px;
+      display: inline-block;
+      margin-bottom: 0;
+    }
   }
   
   img + p {

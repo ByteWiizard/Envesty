@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Calculator base -->
+    <rect x="12" y="8" width="40" height="48" rx="4" fill="#2C3E50"/>
+    <!-- Calculator screen -->
+    <rect x="16" y="12" width="32" height="12" rx="2" fill="#ECF0F1"/>
+    <!-- Dollar symbol on screen -->
+    <path d="M28 20h2v-4h1v4h2v1h-2v1h2v1h-2v2h-1v-2h-2v-1h2v-1h-2v-1z" fill="#2C3E50"/>
+    <!-- Calculator buttons -->
+    <circle cx="22" cy="32" r="3" fill="#ECF0F1"/>
+    <circle cx="32" cy="32" r="3" fill="#ECF0F1"/>
+    <circle cx="42" cy="32" r="3" fill="#ECF0F1"/>
+    <circle cx="22" cy="42" r="3" fill="#ECF0F1"/>
+    <circle cx="32" cy="42" r="3" fill="#ECF0F1"/>
+    <circle cx="42" cy="42" r="3" fill="#E74C3C"/>
+    <!-- Percentage symbol -->
+    <text x="20" y="33" font-size="4" fill="#2C3E50">%</text>
+    <!-- Equal symbol -->
+    <text x="30" y="33" font-size="4" fill="#2C3E50">=</text>
+    <!-- Plus symbol -->
+    <text x="40" y="33" font-size="4" fill="#2C3E50">+</text>
+</svg>

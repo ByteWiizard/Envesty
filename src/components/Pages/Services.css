@@ -112,6 +112,7 @@ html {
   font-weight: 700;
   background: linear-gradient(to right, #ffffff, #6c6c6c);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
   text-align: center;
@@ -191,7 +192,7 @@ html {
 
 .serviceCard:hover .serviceCardInner {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 100, 255, 0.1), 0 10px 30px rgba(255, 215, 0, 0.1);
 }
 
 .serviceCardHeader {
@@ -205,6 +206,7 @@ html {
   margin: 0;
   background: linear-gradient(to right, #ffffff, #6c6c6c);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -234,7 +236,7 @@ html {
 .serviceCardIcon img {
   width: 40px;
   height: 40px;
-  filter: brightness(0) saturate(100%) invert(79%) sepia(38%) saturate(1000%) hue-rotate(359deg) brightness(105%) contrast(107%);
+  filter: brightness(0) saturate(100%) invert(48%) sepia(13%) saturate(3207%) hue-rotate(190deg) brightness(101%) contrast(101%);
 }
 
 .services-page {
@@ -248,7 +250,7 @@ html {
   padding: 120px 0 60px;
   text-align: center;
   position: relative;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .service-section {
@@ -320,6 +322,7 @@ html {
   margin-bottom: 10px;
   background: linear-gradient(120deg, #fff, #e0e0e0);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -330,6 +333,33 @@ html {
   text-transform: uppercase;
   letter-spacing: 2px;
   opacity: 0.9;
+}
+
+.serviceNavigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.serviceNavLink {
+  padding: 8px 16px;
+  color: var(--accent);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.serviceNavLink:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-2px);
 }
 
 @media (max-width: 991px) {
