@@ -46,6 +46,11 @@
   background: #f8f9fa;
   transition: all 0.3s ease;
   font-size: 1rem;
+  color: #333;
+}
+
+.formField::placeholder {
+  color: #666;
 }
 
 .formField:focus {

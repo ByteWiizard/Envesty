@@ -71,6 +71,11 @@
   font-size: 16px;
   transition: all 0.3s ease;
   background: white;
+  color: #333;
+}
+
+.inputGroup input::placeholder {
+  color: #666;
 }
 
 .inputGroup input:focus {
