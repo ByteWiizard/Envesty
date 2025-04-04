@@ -34,8 +34,8 @@ export default function Header({ variant }) {
                 <Link className="cs-site_branding" to="/">
                   <img src="/images/latest/EnvestyTitle.png" alt="Logo" style={{ width: '80px', height: 'auto' }} />
                 </Link>
-
               </Div>
+
               <Div className="cs-main_header_center mx-2">
                 <Div className="cs-nav cs-primary_font cs-medium">
                   <ul

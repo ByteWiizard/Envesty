@@ -1,0 +1,143 @@
+/* Responsive Utilities */
+:root {
+  --container-padding: 15px;
+  --header-height: 90px;
+}
+
+/* Base responsive container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+/* Responsive Grid System */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* Responsive Typography */
+html {
+  font-size: 16px;
+}
+
+/* Breakpoints */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  :root {
+    --header-height: 70px;
+  }
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  html {
+    font-size: 14px;
+  }
+  :root {
+    --container-padding: 10px;
+  }
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Navigation */
+@media (max-width: 992px) {
+  .cs-nav_list {
+    flex-direction: column;
+  }
+  
+  .cs-nav_item {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Responsive Spacing */
+@media (max-width: 768px) {
+  .cs-spacing {
+    height: calc(var(--cs-spacing) * 0.75) !important;
+  }
+}
+
+/* Flex Utilities */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .flex-column-mobile {
+    flex-direction: column;
+  }
+}
+
+/* Hide/Show Elements */
+.hide-on-mobile {
+  display: block;
+}
+
+.show-on-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  
+  .show-on-mobile {
+    display: block;
+  }
+}
+
+/* Touch-friendly interactions */
+@media (max-width: 992px) {
+  button, 
+  .button,
+  .cs-btn {
+    min-height: 44px;
+    padding: 12px 20px;
+  }
+  
+  input,
+  select,
+  textarea {
+    font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+}
